@@ -1,0 +1,113 @@
+.insight-preview {
+    background-color: white;
+    border: 2px solid $clr3;
+    margin-top: 10px;
+    border-radius: 5px;
+
+    .insight-id {
+        text-align: center;
+        padding: 10px;
+        background-color: $clr3;
+        border-radius: 0px 0 5px 0;
+        margin: -1px;
+        color: white;
+        font-weight: bold;
+        font-size: 34px;
+    }
+
+    .insight-content-container {
+        margin-top: 10px;
+        margin-right: 20px;
+        width: 95%;
+    }
+
+    .insight-content {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .insight-content-textarea-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+
+        textarea {
+            width: 100%;
+            resize: none;
+            border: 2px solid lightgray;
+            border-radius: 4px;
+            font-size: 20px;
+        }
+
+        button {
+            margin: 8px 8px 0 0;
+        }
+
+        .save-btn {
+            background-color: white;
+            border: 2px solid lightgray;
+            color: $clr3;
+        }
+    }
+
+    small {
+        font-size: 12px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        display: flex;
+    }
+
+    a:hover {
+        color: black;
+    }
+}
+
+.three-dots-btn {
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    color: #b4a9a9;
+}
+
+.three-dots-btn:focus {
+    outline: 0;
+}
+
+.dropdown-menu {
+    text-align: center;
+
+    .dropdown-item {
+        margin: 3px;
+    }
+
+    .dropdown-item:hover {
+        background-color: $clr1;
+        border-radius: 5px;
+    }
+}
+
+.insight-content-and-dropdown {
+    display: flex;
+    width: 100%;
+}
+
+@media (max-width: 672px) {
+    .insight-preview a {
+        flex-direction: column;
+
+        .insight-id-text {
+            text-align: right;
+            margin-right: 10px;
+        }
+    }
+
+    .insight-preview {
+        .insight-id {
+            border-radius: 2px 0 0px 0;
+        }
+    }
+}

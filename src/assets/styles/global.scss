@@ -1,0 +1,11 @@
+// Setup
+@import "setup/variables.scss";
+
+// Components
+@import "./components/header.scss";
+@import "./components/_navbar.scss";
+@import "./components/spinner.scss";
+@import "./components/_insights_list.scss";
+@import "./components/_insights_summery.scss";
+@import "./components/insight_preview.scss";
+@import "./components/insight_details.scss";

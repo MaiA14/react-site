@@ -1,0 +1,50 @@
+html body {
+  direction: rtl;
+  background-color: white;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+.insight-btn {
+  background-color: #478033;
+  border-radius: 16px;
+  border: 2px solid #478033;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  outline: none;
+  width: 70px;
+  padding: 3px;
+}
+
+.margin-under-construction {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.construction-img{
+  width: 70%;
+}
+
+@media (max-width: 672px) {
+  .margin-under-construction {
+    margin-right: 0px;
+    margin: 0 auto;
+  }
+  .construction-img {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 490px) {
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+}

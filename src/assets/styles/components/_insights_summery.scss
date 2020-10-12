@@ -1,0 +1,24 @@
+.insights-summery-container {
+    background-color: $clr2;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    display: diagonal-fractions;
+    display: flex;
+    color: white;
+
+    img {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-self: center;
+    }
+
+    .insight-summery-content {
+        display: flex;
+        align-self: center;
+        margin-right: 24px;
+        font-size: 20px;
+    }
+}
